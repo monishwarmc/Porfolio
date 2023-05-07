@@ -18,7 +18,7 @@ function App() {
       }
     }
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener('resiz', handleResize);
     handleResize();
 
     return () => window.removeEventListener('resize', handleResize);
