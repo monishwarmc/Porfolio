@@ -92,10 +92,10 @@ const Header = () => {
       backgroundColor="#18181b"
       ref={headerRef}
     >
-      <Box color="white" maxWidth="96vw" margin="0 ">
+      <Box color="white" maxWidth="auto" margin="6px ">
         <HStack
-          px={16}
-          py={6}
+          px={0}
+          py={0}
           justifyContent="space-between"
           alignItems="center"
         >
