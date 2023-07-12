@@ -30,6 +30,7 @@ const ContactMeSection = () => {
     },
     onSubmit: (values) => {
       submit('https://john.com/contactme', values);
+      console.log(values);
     },
     validationSchema: Yup.object({
       firstName : Yup.string().required("Need to enter your name"),
