@@ -127,7 +127,7 @@ const Header = () => {
               <a href="#projects" onClick={handleClick("projects")}> 
                Projects 
               </a> 
-              <a href="#contactme" onClick={handleClick("contactme")}> 
+              <a href="mailto:monishwar69@gmail.com?subject=hi&body=hello monishwar😊 " target="_blank" onClick={handleClick("contactme")}> 
                 Contact Me 
               </a> 
             </HStack>
